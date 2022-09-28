@@ -15,7 +15,7 @@ class TinderBot():
         logg = self.driver.find_element('xpath', '/html/body/div[1]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/a/div[2]/div[2]')
         logg.click()
         sleep(1)
-        self.fblogin()
+        self.fb_login()
 
         sleep(6)
         try:
